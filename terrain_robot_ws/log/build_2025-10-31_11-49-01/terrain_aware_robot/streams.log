@@ -1,0 +1,47 @@
+[0.070s] Invoking command in '/home/megha/terrain_robot_ws/build/terrain_aware_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/megha/terrain_robot_ws/src/terrain_aware_robot -DCMAKE_INSTALL_PREFIX=/home/megha/terrain_robot_ws/install/terrain_aware_robot
+[0.610s] -- The C compiler identification is GNU 13.3.0
+[1.108s] -- The CXX compiler identification is GNU 13.3.0
+[1.208s] -- Detecting C compiler ABI info
+[1.709s] -- Detecting C compiler ABI info - done
+[1.730s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.731s] -- Detecting C compile features
+[1.732s] -- Detecting C compile features - done
+[1.790s] -- Detecting CXX compiler ABI info
+[2.333s] -- Detecting CXX compiler ABI info - done
+[2.372s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.378s] -- Detecting CXX compile features
+[2.379s] -- Detecting CXX compile features - done
+[2.422s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.990s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.968s] -- Configuring done (3.9s)
+[3.984s] -- Generating done (0.0s)
+[4.000s] -- Build files have been written to: /home/megha/terrain_robot_ws/build/terrain_aware_robot
+[4.041s] Invoked command in '/home/megha/terrain_robot_ws/build/terrain_aware_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/megha/terrain_robot_ws/src/terrain_aware_robot -DCMAKE_INSTALL_PREFIX=/home/megha/terrain_robot_ws/install/terrain_aware_robot
+[4.041s] Invoking command in '/home/megha/terrain_robot_ws/build/terrain_aware_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/megha/terrain_robot_ws/build/terrain_aware_robot -- -j2 -l2
+[4.259s] Invoked command in '/home/megha/terrain_robot_ws/build/terrain_aware_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/megha/terrain_robot_ws/build/terrain_aware_robot -- -j2 -l2
+[4.320s] Invoking command in '/home/megha/terrain_robot_ws/build/terrain_aware_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/megha/terrain_robot_ws/build/terrain_aware_robot
+[4.349s] -- Install configuration: ""
+[4.350s] -- Installing: /home/megha/terrain_robot_ws/install/terrain_aware_robot/share/terrain_aware_robot//urdf
+[4.352s] -- Installing: /home/megha/terrain_robot_ws/install/terrain_aware_robot/share/terrain_aware_robot//urdf/robot.urdf.xacro
+[4.353s] -- Installing: /home/megha/terrain_robot_ws/install/terrain_aware_robot/share/terrain_aware_robot//launch
+[4.356s] -- Installing: /home/megha/terrain_robot_ws/install/terrain_aware_robot/share/terrain_aware_robot//launch/terrain_robot_launch.py
+[4.358s] -- Installing: /home/megha/terrain_robot_ws/install/terrain_aware_robot/share/terrain_aware_robot//worlds
+[4.358s] -- Installing: /home/megha/terrain_robot_ws/install/terrain_aware_robot/share/terrain_aware_robot//worlds/terrain_world.sdf
+[4.361s] -- Installing: /home/megha/terrain_robot_ws/install/terrain_aware_robot/share/terrain_aware_robot//scripts
+[4.363s] -- Installing: /home/megha/terrain_robot_ws/install/terrain_aware_robot/share/terrain_aware_robot//scripts/terrain_detector.py
+[4.363s] -- Installing: /home/megha/terrain_robot_ws/install/terrain_aware_robot/share/ament_index/resource_index/package_run_dependencies/terrain_aware_robot
+[4.365s] -- Installing: /home/megha/terrain_robot_ws/install/terrain_aware_robot/share/ament_index/resource_index/parent_prefix_path/terrain_aware_robot
+[4.365s] -- Installing: /home/megha/terrain_robot_ws/install/terrain_aware_robot/share/terrain_aware_robot/environment/ament_prefix_path.sh
+[4.365s] -- Installing: /home/megha/terrain_robot_ws/install/terrain_aware_robot/share/terrain_aware_robot/environment/ament_prefix_path.dsv
+[4.376s] -- Installing: /home/megha/terrain_robot_ws/install/terrain_aware_robot/share/terrain_aware_robot/environment/path.sh
+[4.376s] -- Installing: /home/megha/terrain_robot_ws/install/terrain_aware_robot/share/terrain_aware_robot/environment/path.dsv
+[4.377s] -- Installing: /home/megha/terrain_robot_ws/install/terrain_aware_robot/share/terrain_aware_robot/local_setup.bash
+[4.388s] -- Installing: /home/megha/terrain_robot_ws/install/terrain_aware_robot/share/terrain_aware_robot/local_setup.sh
+[4.396s] -- Installing: /home/megha/terrain_robot_ws/install/terrain_aware_robot/share/terrain_aware_robot/local_setup.zsh
+[4.396s] -- Installing: /home/megha/terrain_robot_ws/install/terrain_aware_robot/share/terrain_aware_robot/local_setup.dsv
+[4.396s] -- Installing: /home/megha/terrain_robot_ws/install/terrain_aware_robot/share/terrain_aware_robot/package.dsv
+[4.399s] -- Installing: /home/megha/terrain_robot_ws/install/terrain_aware_robot/share/ament_index/resource_index/packages/terrain_aware_robot
+[4.400s] -- Installing: /home/megha/terrain_robot_ws/install/terrain_aware_robot/share/terrain_aware_robot/cmake/terrain_aware_robotConfig.cmake
+[4.400s] -- Installing: /home/megha/terrain_robot_ws/install/terrain_aware_robot/share/terrain_aware_robot/cmake/terrain_aware_robotConfig-version.cmake
+[4.400s] -- Installing: /home/megha/terrain_robot_ws/install/terrain_aware_robot/share/terrain_aware_robot/package.xml
+[4.401s] Invoked command in '/home/megha/terrain_robot_ws/build/terrain_aware_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/megha/terrain_robot_ws/build/terrain_aware_robot

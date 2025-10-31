@@ -1,0 +1,41 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Configuring done (3.9s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/megha/terrain_robot_ws/build/terrain_aware_robot
+-- Install configuration: ""
+-- Installing: /home/megha/terrain_robot_ws/install/terrain_aware_robot/share/terrain_aware_robot//urdf
+-- Installing: /home/megha/terrain_robot_ws/install/terrain_aware_robot/share/terrain_aware_robot//urdf/robot.urdf.xacro
+-- Installing: /home/megha/terrain_robot_ws/install/terrain_aware_robot/share/terrain_aware_robot//launch
+-- Installing: /home/megha/terrain_robot_ws/install/terrain_aware_robot/share/terrain_aware_robot//launch/terrain_robot_launch.py
+-- Installing: /home/megha/terrain_robot_ws/install/terrain_aware_robot/share/terrain_aware_robot//worlds
+-- Installing: /home/megha/terrain_robot_ws/install/terrain_aware_robot/share/terrain_aware_robot//worlds/terrain_world.sdf
+-- Installing: /home/megha/terrain_robot_ws/install/terrain_aware_robot/share/terrain_aware_robot//scripts
+-- Installing: /home/megha/terrain_robot_ws/install/terrain_aware_robot/share/terrain_aware_robot//scripts/terrain_detector.py
+-- Installing: /home/megha/terrain_robot_ws/install/terrain_aware_robot/share/ament_index/resource_index/package_run_dependencies/terrain_aware_robot
+-- Installing: /home/megha/terrain_robot_ws/install/terrain_aware_robot/share/ament_index/resource_index/parent_prefix_path/terrain_aware_robot
+-- Installing: /home/megha/terrain_robot_ws/install/terrain_aware_robot/share/terrain_aware_robot/environment/ament_prefix_path.sh
+-- Installing: /home/megha/terrain_robot_ws/install/terrain_aware_robot/share/terrain_aware_robot/environment/ament_prefix_path.dsv
+-- Installing: /home/megha/terrain_robot_ws/install/terrain_aware_robot/share/terrain_aware_robot/environment/path.sh
+-- Installing: /home/megha/terrain_robot_ws/install/terrain_aware_robot/share/terrain_aware_robot/environment/path.dsv
+-- Installing: /home/megha/terrain_robot_ws/install/terrain_aware_robot/share/terrain_aware_robot/local_setup.bash
+-- Installing: /home/megha/terrain_robot_ws/install/terrain_aware_robot/share/terrain_aware_robot/local_setup.sh
+-- Installing: /home/megha/terrain_robot_ws/install/terrain_aware_robot/share/terrain_aware_robot/local_setup.zsh
+-- Installing: /home/megha/terrain_robot_ws/install/terrain_aware_robot/share/terrain_aware_robot/local_setup.dsv
+-- Installing: /home/megha/terrain_robot_ws/install/terrain_aware_robot/share/terrain_aware_robot/package.dsv
+-- Installing: /home/megha/terrain_robot_ws/install/terrain_aware_robot/share/ament_index/resource_index/packages/terrain_aware_robot
+-- Installing: /home/megha/terrain_robot_ws/install/terrain_aware_robot/share/terrain_aware_robot/cmake/terrain_aware_robotConfig.cmake
+-- Installing: /home/megha/terrain_robot_ws/install/terrain_aware_robot/share/terrain_aware_robot/cmake/terrain_aware_robotConfig-version.cmake
+-- Installing: /home/megha/terrain_robot_ws/install/terrain_aware_robot/share/terrain_aware_robot/package.xml

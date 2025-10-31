@@ -1,0 +1,2 @@
+source;share/terrain_aware_robot/environment/ament_prefix_path.sh
+source;share/terrain_aware_robot/environment/path.sh

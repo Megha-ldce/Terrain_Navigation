@@ -1,0 +1,27 @@
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclpy: 7.1.5 (/opt/ros/jazzy/share/rclpy/cmake)
+-- Configuring done (1.9s)
+-- Generating done (0.1s)
+-- Build files have been written to: /home/megha/terrain_robot_ws/build/terrain_aware_robot
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/megha/terrain_robot_ws/install/terrain_aware_robot/share/terrain_aware_robot//urdf/robot.urdf.xacro
+-- Symlinking: /home/megha/terrain_robot_ws/install/terrain_aware_robot/share/terrain_aware_robot//launch/terrain_robot_launch.py
+-- Symlinking: /home/megha/terrain_robot_ws/install/terrain_aware_robot/share/terrain_aware_robot//worlds/terrain_world.sdf
+-- Symlinking: /home/megha/terrain_robot_ws/install/terrain_aware_robot/lib/terrain_aware_robot/terrain_detector.py
+-- Symlinking: /home/megha/terrain_robot_ws/install/terrain_aware_robot/share/ament_index/resource_index/package_run_dependencies/terrain_aware_robot
+-- Symlinking: /home/megha/terrain_robot_ws/install/terrain_aware_robot/share/ament_index/resource_index/parent_prefix_path/terrain_aware_robot
+-- Symlinking: /home/megha/terrain_robot_ws/install/terrain_aware_robot/share/terrain_aware_robot/environment/ament_prefix_path.sh
+-- Symlinking: /home/megha/terrain_robot_ws/install/terrain_aware_robot/share/terrain_aware_robot/environment/ament_prefix_path.dsv
+-- Symlinking: /home/megha/terrain_robot_ws/install/terrain_aware_robot/share/terrain_aware_robot/environment/path.sh
+-- Symlinking: /home/megha/terrain_robot_ws/install/terrain_aware_robot/share/terrain_aware_robot/environment/path.dsv
+-- Symlinking: /home/megha/terrain_robot_ws/install/terrain_aware_robot/share/terrain_aware_robot/local_setup.bash
+-- Symlinking: /home/megha/terrain_robot_ws/install/terrain_aware_robot/share/terrain_aware_robot/local_setup.sh
+-- Symlinking: /home/megha/terrain_robot_ws/install/terrain_aware_robot/share/terrain_aware_robot/local_setup.zsh
+-- Symlinking: /home/megha/terrain_robot_ws/install/terrain_aware_robot/share/terrain_aware_robot/local_setup.dsv
+-- Symlinking: /home/megha/terrain_robot_ws/install/terrain_aware_robot/share/terrain_aware_robot/package.dsv
+-- Symlinking: /home/megha/terrain_robot_ws/install/terrain_aware_robot/share/ament_index/resource_index/packages/terrain_aware_robot
+-- Symlinking: /home/megha/terrain_robot_ws/install/terrain_aware_robot/share/terrain_aware_robot/cmake/terrain_aware_robotConfig.cmake
+-- Symlinking: /home/megha/terrain_robot_ws/install/terrain_aware_robot/share/terrain_aware_robot/cmake/terrain_aware_robotConfig-version.cmake
+-- Symlinking: /home/megha/terrain_robot_ws/install/terrain_aware_robot/share/terrain_aware_robot/package.xml
