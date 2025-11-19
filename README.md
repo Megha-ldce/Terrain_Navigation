@@ -1,59 +1,76 @@
-Terrain_Navigation
-This project demonstrates simulated terrain-aware robot navigation using ROS 2, Gazebo, and RViz. The robot uses a depth camera to measure the depth of ditches and automatically stops when it encounters untraversable terrain.
 
-Features
-Simulated mobile robot with a depth camera in a tilted position
 
-Terrain awareness and obstacle detection using depth data
+# Terrain_Navigation
 
-Automatic stopping at ditches that the robot cannot negotiate
+This project demonstrates terrain-aware navigation for a simulated robot using ROS 2, Gazebo, and RViz. The robot uses a depth camera to measure ditch depths and stops in front of ditches it cannot traverse.
 
-Visualization support in both Gazebo and RViz
+## Features
 
-Project Structure
-terrain_robot_ws/: ROS 2 workspace containing source code, launch files, and configuration
+- Simulated mobile robot with a tilted depth camera
+- Detects and measures ditch depth
+- Robot stops before ditches using real sensor data
+- Visualization in both Gazebo and RViz
 
-Source code includes depth camera processing, robot description, and navigation logic
+## Requirements
 
-Getting Started
-Clone this repository:
+- ROS 2 Jazzy (or compatible distribution)
+- Gazebo Harmonic
+- Python and C++ build tools
 
-bash
-git clone https://github.com/Megha-ldce/Terrain_Navigation.git
-Build the workspace:
+## Project Structure
 
-bash
-cd Terrain_Navigation/terrain_robot_ws
-colcon build
-Source the setup file:
+- `terrain_robot_ws/`  
+  ROS 2 workspace containing code, launch files, and configuration
 
-bash
-source install/setup.bash
-Launch the simulation in Gazebo:
+***
 
-bash
-ros2 launch terrain_aware_robot terrain_robot_launch.py
-Start RViz (in a new terminal, after sourcing your workspace):
+## Getting Started
 
-bash
-rviz
-Or load the provided configuration:
+1. **Clone the repository**
+    ```
+    git clone https://github.com/Megha-ldce/Terrain_Navigation.git
+    ```
 
-bash
-rviz -d src/terrain_aware_robot/rviz/config.rviz
-How It Works
-The robot uses depth camera data to evaluate the terrain ahead.
+2. **Build the workspace**
+    ```
+    cd Terrain_Navigation/terrain_robot_ws
+    colcon build
+    ```
 
-If a ditch or gap is detected that cannot be crossed, the robot stops automatically.
+3. **Source the workspace**
+    ```
+    source install/setup.bash
+    ```
 
-All navigation data and robot state can be visualized in real time in RViz.
+4. **Launch the simulation in Gazebo**
+    ```
+    ros2 launch terrain_aware_robot terrain_robot_launch.py
+    ```
 
-Requirements
-ROS 2 (Jazzy or compatible version)
+5. **Open RViz for visualization (optional)**  
+   Open a new terminal, source the workspace, and start RViz:
+    ```
+    cd Terrain_Navigation/terrain_robot_ws
+    source install/setup.bash
+    rviz
+    ```
+   *Or, launch with your configuration file:*
+    ```
+    rviz -d src/terrain_aware_robot/rviz/config.rviz
+    ```
 
-Gazebo Harmonic (or supported simulator for ROS 2 Jazzy)
+***
 
-Python and C++ build tools
+## How It Works
 
-Contact
-For questions or contributions, please open an issue or pull request on this repository.
+- The robot uses a depth camera to detect ditches ahead on the terrain.
+- If the ditch is not traversable, the robot automatically stops.
+- All sensor and navigation data can be visualized live in RViz.
+
+***
+
+## Contact
+
+For issues or contributions, please open an issue or pull request on this repository.
+
+
